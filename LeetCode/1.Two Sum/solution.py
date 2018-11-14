@@ -5,6 +5,7 @@ class Solution:
         :type target: int
         :rtype: List[int]
         """
+
         if len(nums)<=1:
             return False
         dict={}
